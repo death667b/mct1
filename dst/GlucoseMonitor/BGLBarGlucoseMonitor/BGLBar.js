@@ -21,7 +21,7 @@ var BGLBar = (function () {
     }
     BGLBar.prototype.makeBarGreen = function () {
         log_1.log('HERE HERE HERE');
-        log_1.log(this.Bars.Color);
+        log_1.log(this.Bars);
         // this.bar.setColor('this.Bars.Color.GREEN');
     };
     BGLBar.prototype.makeBarRed = function () {
