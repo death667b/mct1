@@ -36,8 +36,9 @@ export class BGLBar {
     }
 
     makeBarGreen() {
+        log('HERE HERE HERE');
         log(this.Bars.Color);
-        this.bar.setColor(this.Bars.Color.GREEN);
+        // this.bar.setColor('this.Bars.Color.GREEN');
     }
 
     makeBarRed() {
