@@ -37,8 +37,6 @@ export class BGLBar {
     }
 
     makeBarGreen() {
-        log('HERE HERE HERE');
-        log(magikcraft.io.Bars);
         this.bar.setColor(this.Bars.Color.GREEN);
     }
 
