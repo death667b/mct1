@@ -38,6 +38,6 @@ function initialise(callback?: () => void) {
 }
 
 function iantest() {
-    log('iantesting');
+    log('iantesting..oo00oo..');
     mct1.BGLBar.monitor();
 }

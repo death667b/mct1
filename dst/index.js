@@ -34,6 +34,6 @@ function initialise(callback) {
     callback && callback();
 }
 function iantest() {
-    log_1.log('iantesting');
+    log_1.log('iantesting..oo00oo..');
     mct1_1.mct1.BGLBar.monitor();
 }

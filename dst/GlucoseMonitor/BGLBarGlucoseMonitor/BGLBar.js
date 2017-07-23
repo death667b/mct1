@@ -29,7 +29,7 @@ var BGLBar = (function () {
         var bgl = this.BGL.getBGL();
         // Bar progress is 0 - 0.99
         var scaledBGL = Math.max(bgl / 30, 0.99);
-        this.bar.setProgress(scaledBGL);
+        this.bar.setProgress(0.3);
         if (this.BGL.BGLinRange) {
             this.makeBarGreen();
         }
