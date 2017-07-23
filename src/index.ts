@@ -38,5 +38,6 @@ function initialise(callback?: () => void) {
 }
 
 function iantest() {
-    log(`this is ian test`);
+    log('iantesting');
+    mct1.BGLBar.monitor();
 }

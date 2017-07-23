@@ -34,5 +34,6 @@ function initialise(callback) {
     callback && callback();
 }
 function iantest() {
-    log_1.log("this is ian test");
+    log_1.log('iantesting');
+    mct1_1.mct1.BGLBar.monitor();
 }
