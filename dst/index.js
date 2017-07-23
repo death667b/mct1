@@ -33,7 +33,7 @@ function initialise(callback) {
     mct1_1.mct1.running = false;
     callback && callback();
 }
-function iantest() {
-    log_1.log('iantesting..oo00oo..');
+function iantest(lvl) {
+    log_1.log("iantesting..oo00oo.. " + lvl);
     mct1_1.mct1.BGLBar.monitor();
 }

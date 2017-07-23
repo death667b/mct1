@@ -37,7 +37,7 @@ function initialise(callback?: () => void) {
     callback && callback();
 }
 
-function iantest() {
-    log('iantesting..oo00oo..');
+function iantest(lvl: any) {
+    log(`iantesting..oo00oo.. ${lvl}`);
     mct1.BGLBar.monitor();
 }
