@@ -27,6 +27,7 @@ export class BGLBar {
     constructor(BGL: BGL, deps: IDependencies) {
         const { Bars, sender, textcomponent } = deps;
         this.BGL = BGL;
+        this.Bars = Bars;
         this.bar = Bars.addBar(sender,
             textcomponent("BGL"),
             Bars.Color.RED,
@@ -38,7 +39,7 @@ export class BGLBar {
     makeBarGreen() {
         log('HERE HERE HERE');
         log(magikcraft.io.Bars);
-        // this.bar.setColor('this.Bars.Color.GREEN');
+        this.bar.setColor(this.Bars.Color.GREEN);
     }
 
     makeBarRed() {

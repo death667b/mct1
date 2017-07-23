@@ -16,13 +16,14 @@ var BGLBar = (function () {
     function BGLBar(BGL, deps) {
         var Bars = deps.Bars, sender = deps.sender, textcomponent = deps.textcomponent;
         this.BGL = BGL;
+        this.Bars = Bars;
         this.bar = Bars.addBar(sender, textcomponent("BGL"), Bars.Color.RED, Bars.Style.NOTCHED_20, 0.0 // Progress (0.0 - 1.0)
         );
     }
     BGLBar.prototype.makeBarGreen = function () {
         log_1.log('HERE HERE HERE');
         log_1.log(magikcraft.io.Bars);
-        // this.bar.setColor('this.Bars.Color.GREEN');
+        this.bar.setColor(this.Bars.Color.GREEN);
     };
     BGLBar.prototype.makeBarRed = function () {
         this.bar.setColor(this.Bars.Color.RED);
