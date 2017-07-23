@@ -4,7 +4,7 @@ import { BGLBarGlucoseMonitor } from './GlucoseMonitor/BGLBarGlucoseMonitor/BGLB
 import { mct1 } from './util/mct1';
 import { T1Player } from './Player/T1Player';
 
-mct1.version = '1.3.0';
+mct1.version = '1.3.1';
 log(`MCT1 version ${mct1.version}`);
 
 function _default() {

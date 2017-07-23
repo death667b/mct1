@@ -5,7 +5,7 @@ var log_1 = require("./util/log");
 var BGLBarGlucoseMonitor_1 = require("./GlucoseMonitor/BGLBarGlucoseMonitor/BGLBarGlucoseMonitor");
 var mct1_1 = require("./util/mct1");
 var T1Player_1 = require("./Player/T1Player");
-mct1_1.mct1.version = '1.3.0';
+mct1_1.mct1.version = '1.3.1';
 log_1.log("MCT1 version " + mct1_1.mct1.version);
 function _default() {
     if (!mct1_1.mct1.initialised) {
