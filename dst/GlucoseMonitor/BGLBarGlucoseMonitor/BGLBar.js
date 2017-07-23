@@ -30,7 +30,7 @@ var BGLBar = (function () {
         var bgl = this.BGL.getBGL();
         log_1.log("Current BGL is updating to: " + bgl);
         // Bar progress is 0 - 0.99
-        var scaledBGL = Math.max(bgl / 30, 0.99);
+        var scaledBGL = Math.min(bgl / 30, 0.99);
         this.bar.setProgress(scaledBGL);
         if (this.BGL.BGLinRange) {
             this.makeBarGreen();
