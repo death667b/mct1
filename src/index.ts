@@ -19,7 +19,8 @@ function _default() {
  */
 export const spells = {
     _default,
-    query
+    query,
+    iantest
 }
 
 function query() {
@@ -34,4 +35,8 @@ function initialise(callback?: () => void) {
     mct1.initialised = true;
     mct1.running = false;
     callback && callback();
+}
+
+function iantest() {
+    log(`this is ian test`);
 }

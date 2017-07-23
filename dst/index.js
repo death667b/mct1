@@ -18,7 +18,8 @@ function _default() {
  */
 exports.spells = {
     _default: _default,
-    query: query
+    query: query,
+    iantest: iantest
 };
 function query() {
     log_1.log("BGL: " + mct1_1.mct1.T1Player.BGL.getBGL);
@@ -31,4 +32,7 @@ function initialise(callback) {
     mct1_1.mct1.initialised = true;
     mct1_1.mct1.running = false;
     callback && callback();
+}
+function iantest() {
+    log_1.log("this is ian test");
 }
