@@ -1,4 +1,5 @@
 import { BGL } from '../../BGL/BGL';
+import { log } from '../../util/log';
 
 export interface IDependencies {
     Bars: BossBarAPI;
@@ -35,6 +36,7 @@ export class BGLBar {
     }
 
     makeBarGreen() {
+        log(this.Bars.Color);
         this.bar.setColor(this.Bars.Color.GREEN);
     }
 

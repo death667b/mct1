@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var log_1 = require("../../util/log");
 /**
  *
  * BGLBar creates a UI Bar to display the user's Blood Glucose Level
@@ -19,6 +20,7 @@ var BGLBar = (function () {
         );
     }
     BGLBar.prototype.makeBarGreen = function () {
+        log_1.log(this.Bars.Color);
         this.bar.setColor(this.Bars.Color.GREEN);
     };
     BGLBar.prototype.makeBarRed = function () {
