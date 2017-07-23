@@ -46,7 +46,6 @@ export class BGLBar {
 
     update() {
         const bgl = this.BGL.getBGL();
-        log(`Current BGL is updating to: ${bgl}`)
         // Bar progress is 0 - 0.99
         const scaledBGL = Math.min(bgl/30, 0.99);
         this.bar.setProgress(scaledBGL);

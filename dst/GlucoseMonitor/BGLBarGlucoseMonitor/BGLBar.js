@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var log_1 = require("../../util/log");
 /**
  *
  * BGLBar creates a UI Bar to display the user's Blood Glucose Level
@@ -28,7 +27,6 @@ var BGLBar = (function () {
     };
     BGLBar.prototype.update = function () {
         var bgl = this.BGL.getBGL();
-        log_1.log("Current BGL is updating to: " + bgl);
         // Bar progress is 0 - 0.99
         var scaledBGL = Math.min(bgl / 30, 0.99);
         this.bar.setProgress(scaledBGL);
