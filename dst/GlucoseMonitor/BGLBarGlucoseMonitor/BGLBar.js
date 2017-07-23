@@ -21,7 +21,7 @@ var BGLBar = (function () {
     }
     BGLBar.prototype.makeBarGreen = function () {
         log_1.log('HERE HERE HERE');
-        log_1.log(this.Bars);
+        log_1.log(magikcraft.io.Bars);
         // this.bar.setColor('this.Bars.Color.GREEN');
     };
     BGLBar.prototype.makeBarRed = function () {
